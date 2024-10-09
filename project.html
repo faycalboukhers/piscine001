@@ -1,11 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Découvrez comment optimiser votre temps pour maximiser vos revenus.">
+    <title>Moneytime</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    hello world
+
+    <header>
+        <a href="project.html" aria-label="Retour à la page d'accueil">Logo</a> <!-- Ajout de aria-label -->
+        <button>Contact</button>
+    </header>
+
+    <section id="section1" class="section1">
+        <video id="vidbackground1" class="videoshowed" width="100%" height="100%" controls="false" muted playsinline disablepictureinpicture controlslist="nodownload nofullscreen" oncontextmenu="return false;" autoplay preload>
+            <source src="assets/videobackground.mp4" type="video/mp4"> 
+        </video> 
+
+        <video id="vidbackground2" class="videohidden" width="100%" height="100%" controls="false" muted playsinline disablepictureinpicture controlslist="nodownload nofullscreen" oncontextmenu="return false;" preload>
+            <source src="assets/videobackgroundreturn.mp4" type="video/mp4"> 
+        </video> 
+
+        <div>
+            <h1>Le Temps : L'Investissement qui Fait la Différence</h1>
+            <p>"Chaque jour, des millions de personnes se réveillent avec des rêves d'indépendance financière. Mais peu savent que la clé de cette réussite réside dans la gestion efficace de leur temps. Imaginez un instant que chaque minute que vous investissez dans l'apprentissage et le développement personnel vous rapproche de votre objectif. Grâce à nos formations, vous découvrirez comment optimiser votre temps pour maximiser vos revenus. Ne laissez pas le temps s'échapper : saisissez l'opportunité de transformer votre vie et de réaliser vos ambitions financières."</p>
+            <button id="decouvrir">Découvrir</button>
+        </div>
+        
+        
+    </section>
+
+    <section class="section2" id="section2">
+        <div class="container">
+            <div class="formula" id="formula1">
+                <h1>Trading</h1>
+                <h2>Maîtrisez les marchés financiers</h2>
+                <p>Apprenez à générer des revenus en exploitant les fluctuations des marchés financiers...</p>
+                <ul>
+                    <span>Compétences acquises :</span>
+                    <li>Analyse technique et fondamentale</li>
+                    <li>Gestion des risques et du capital</li>
+                    <li>Stratégies de trading</li>
+                </ul>
+                <div class="details">
+                    <span>Nombre d'heures : 588 heures</span><br>
+                    <span>Formateur : Alexandre Dupont</span>
+                </div>
+                <button>Rejoindre la formation</button>
+            </div>
+            
+            <div class="formula" id="formula2">
+                <h1>Dropshipping</h1>
+                <h2>Lancez votre e-commerce sans stock</h2>
+                <p>Découvrez comment créer un business en ligne en vendant des produits...</p>
+                <br>
+                <ul>
+                    <span>Compétences acquises :</span>
+                    <li>Création de boutique en ligne</li>
+                    <li>Marketing digital</li>
+                    <li>Automatisation des ventes</li>
+                
+                </ul>
+                <div class="details">
+                    <span>Nombre d'heures : 432 heures</span><br>
+                    <span>Formateur : Sarah Martin</span>
+                </div>
+                <button>Rejoindre la formation</button>
+            </div>
+    
+            <div class="formula" id="formula3">
+                <h1>Marketing d'affiliation</h1>
+                <h2>Devenez un affilié à succès</h2>
+                <p>Apprenez à promouvoir des produits et à gagner des commissions sur chaque vente...</p>
+                <ul>
+                    <span>Compétences acquises :</span>
+                    <li>Stratégies d'affiliation</li>
+                    <li>Création de contenu</li>
+                    <li>Analyse des conversions</li>
+                </ul>
+                <div class="details">
+                    <span>Nombre d'heures : 450 heures</span><br>
+                    <span>Formateur : Paul Lefebvre</span>
+                </div>
+                <button>Rejoindre la formation</button>
+            </div>
+        </div>
+    
+        <form class="newsletter">
+            <p>Restez à l'affût des meilleures opportunités financières !</p>
+            <input type="email" placeholder="Entrer votre email">
+            <button>Je veux être informé !</button>
+        </form>
+    </section>
+
+
+
+    <section class="section3">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+
+
+
+    <footer>
+        <span>&copy; TFR PRODUCTION</span> 
+    </footer>
+
+    <script src="project.js"></script>
 </body>
 </html>
